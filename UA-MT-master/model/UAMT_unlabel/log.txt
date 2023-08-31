@@ -1,0 +1,598 @@
+[10:43:04.311] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[10:43:04.567] 8 itertations per epoch
+[08:09:00.105] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:09:00.375] 8 itertations per epoch
+[08:09:37.195] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=64, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:09:37.369] 8 itertations per epoch
+[08:11:18.930] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:11:26.389] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:12:03.754] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:12:10.130] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=2, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:12:20.506] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:12:20.659] 8 itertations per epoch
+[08:18:07.847] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='vnet_supervisedonly_dp', max_iterations=6000, batch_size=4, base_lr=0.01, deterministic=1, seed=1337, gpu='0')
+[08:18:08.049] 4 itertations per epoch
+[08:18:21.616] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:18:21.758] 8 itertations per epoch
+[08:18:32.319] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:18:40.292] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:19:05.460] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:19:05.628] 8 itertations per epoch
+[08:19:28.596] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:19:28.752] 8 itertations per epoch
+[08:21:06.018] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:21:06.179] 8 itertations per epoch
+[08:21:28.710] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:21:28.877] 8 itertations per epoch
+[08:26:41.882] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='vnet_supervisedonly_dp', max_iterations=6000, batch_size=4, base_lr=0.01, deterministic=1, seed=1337, gpu='0')
+[08:26:41.964] 4 itertations per epoch
+[08:27:05.652] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:27:05.825] 8 itertations per epoch
+[08:27:17.870] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:27:18.029] 8 itertations per epoch
+[08:27:49.081] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:27:49.245] 8 itertations per epoch
+[08:28:02.887] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:28:03.040] 8 itertations per epoch
+[08:30:30.247] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:30:30.397] 8 itertations per epoch
+[08:30:45.702] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:30:45.859] 8 itertations per epoch
+[08:31:30.858] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:31:38.557] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=2, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:31:49.019] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:31:49.170] 8 itertations per epoch
+[08:32:10.870] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:32:11.022] 8 itertations per epoch
+[08:32:55.308] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:36:08.832] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='vnet_supervisedonly_dp', max_iterations=6000, batch_size=4, base_lr=0.01, deterministic=1, seed=1337, gpu='0')
+[08:36:08.940] 4 itertations per epoch
+[08:36:17.996] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:36:18.162] 8 itertations per epoch
+[08:36:53.196] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=1, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:37:02.615] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:37:02.778] 8 itertations per epoch
+[08:39:13.056] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:39:13.211] 8 itertations per epoch
+[08:48:51.021] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:48:51.183] 8 itertations per epoch
+[08:49:00.764] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:49:00.922] 8 itertations per epoch
+[08:49:14.680] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[08:49:14.839] 8 itertations per epoch
+[08:53:26.410] Exception in comm_msg for 7eac9493ba8611eeb775cc88f52b5948
+Traceback (most recent call last):
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 347, in _handle_remote_call
+    self._set_call_return_value(msg_dict, return_value)
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 384, in _set_call_return_value
+    self._send_message('remote_call_reply', content=content, data=data,
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 109, in _send_message
+    return super(FrontendComm, self)._send_message(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 238, in _send_message
+    raise CommError("The comm is not connected.")
+spyder_kernels.comms.commbase.CommError: The comm is not connected.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\comm\base_comm.py", line 263, in comm_msg
+    comm.handle_msg(msg)
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 256, in handle_msg
+    comm._msg_callback(msg)
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 333, in _comm_message
+    self._message_handlers[spyder_msg_type](
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 351, in _handle_remote_call
+    self._set_call_return_value(msg_dict, exc_infos, is_error=True)
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 384, in _set_call_return_value
+    self._send_message('remote_call_reply', content=content, data=data,
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 109, in _send_message
+    return super(FrontendComm, self)._send_message(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleja\anaconda3\envs\entorno_TFG_gpu\Lib\site-packages\spyder_kernels\comms\commbase.py", line 238, in _send_message
+    raise CommError("The comm is not connected.")
+spyder_kernels.comms.commbase.CommError: The comm is not connected.
+[09:05:44.740] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:05:45.069] 8 itertations per epoch
+[09:10:40.569] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:10:40.733] 8 itertations per epoch
+[09:11:49.141] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:11:49.293] 8 itertations per epoch
+[09:12:20.238] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:12:20.397] 8 itertations per epoch
+[09:13:05.617] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=3, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:13:05.870] 8 itertations per epoch
+[09:13:30.374] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:13:30.527] 8 itertations per epoch
+[09:14:02.172] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:14:02.354] 8 itertations per epoch
+[09:16:22.147] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:16:29.589] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:16:29.754] 8 itertations per epoch
+[09:17:00.024] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:17:00.183] 8 itertations per epoch
+[09:19:32.735] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:19:32.894] 8 itertations per epoch
+[09:20:33.353] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:20:33.518] 8 itertations per epoch
+[09:21:05.346] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:21:05.502] 8 itertations per epoch
+[09:22:07.731] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:22:07.894] 8 itertations per epoch
+[09:22:16.450] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:22:23.098] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:22:23.247] 8 itertations per epoch
+[09:23:20.233] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:23:20.385] 8 itertations per epoch
+[09:23:23.753] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[09:23:26.009] iteration 2 : loss : 0.686801 cons_dist: 0.028979, loss_weight: 0.000674
+[09:23:28.244] iteration 3 : loss : 0.556550 cons_dist: 0.042909, loss_weight: 0.000674
+[09:23:30.459] iteration 4 : loss : 0.526318 cons_dist: 0.009073, loss_weight: 0.000674
+[09:23:32.151] iteration 5 : loss : 0.684011 cons_dist: 0.016724, loss_weight: 0.000674
+[09:23:33.859] iteration 6 : loss : 0.553325 cons_dist: 0.042622, loss_weight: 0.000674
+[09:23:35.543] iteration 7 : loss : 0.544236 cons_dist: 0.024293, loss_weight: 0.000674
+[09:23:37.234] iteration 8 : loss : 0.544131 cons_dist: 0.022445, loss_weight: 0.000674
+[09:23:38.886] iteration 9 : loss : 0.444840 cons_dist: 0.021308, loss_weight: 0.000674
+[09:23:40.544] iteration 10 : loss : 0.509893 cons_dist: 0.021751, loss_weight: 0.000674
+[09:23:42.194] iteration 11 : loss : 0.539432 cons_dist: 0.021460, loss_weight: 0.000674
+[09:23:43.849] iteration 12 : loss : 0.448781 cons_dist: 0.036386, loss_weight: 0.000674
+[09:23:45.484] iteration 13 : loss : 0.581656 cons_dist: 0.008759, loss_weight: 0.000674
+[09:23:47.183] iteration 14 : loss : 0.463958 cons_dist: 0.016499, loss_weight: 0.000674
+[09:23:48.850] iteration 15 : loss : 0.588602 cons_dist: 0.015354, loss_weight: 0.000674
+[09:23:50.514] iteration 16 : loss : 0.532073 cons_dist: 0.005286, loss_weight: 0.000674
+[09:23:52.165] iteration 17 : loss : 0.394459 cons_dist: 0.012066, loss_weight: 0.000674
+[09:23:53.908] iteration 18 : loss : 0.505426 cons_dist: 0.001985, loss_weight: 0.000674
+[09:23:55.567] iteration 19 : loss : 0.447585 cons_dist: 0.025689, loss_weight: 0.000674
+[09:23:57.226] iteration 20 : loss : 0.478726 cons_dist: 0.012242, loss_weight: 0.000674
+[09:23:58.858] iteration 21 : loss : 0.460028 cons_dist: 0.024368, loss_weight: 0.000674
+[09:24:00.572] iteration 22 : loss : 0.508904 cons_dist: 0.029521, loss_weight: 0.000674
+[09:24:02.206] iteration 23 : loss : 0.456803 cons_dist: 0.020641, loss_weight: 0.000674
+[09:24:03.858] iteration 24 : loss : 0.473542 cons_dist: 0.019616, loss_weight: 0.000674
+[09:24:05.512] iteration 25 : loss : 0.456789 cons_dist: 0.030690, loss_weight: 0.000674
+[09:24:07.147] iteration 26 : loss : 0.456209 cons_dist: 0.004357, loss_weight: 0.000674
+[09:24:08.791] iteration 27 : loss : 0.448429 cons_dist: 0.012066, loss_weight: 0.000674
+[09:24:10.427] iteration 28 : loss : 0.448629 cons_dist: 0.007186, loss_weight: 0.000674
+[09:24:12.068] iteration 29 : loss : 0.411020 cons_dist: 0.004129, loss_weight: 0.000674
+[09:24:13.723] iteration 30 : loss : 0.421259 cons_dist: 0.005320, loss_weight: 0.000674
+[09:24:15.383] iteration 31 : loss : 0.389156 cons_dist: 0.016415, loss_weight: 0.000674
+[09:24:17.047] iteration 32 : loss : 0.432106 cons_dist: 0.003585, loss_weight: 0.000674
+[09:24:18.693] iteration 33 : loss : 0.410007 cons_dist: 0.009996, loss_weight: 0.000674
+[09:24:20.329] iteration 34 : loss : 0.395590 cons_dist: 0.003565, loss_weight: 0.000674
+[09:24:22.026] iteration 35 : loss : 0.439094 cons_dist: 0.017901, loss_weight: 0.000674
+[09:24:23.673] iteration 36 : loss : 0.442204 cons_dist: 0.009578, loss_weight: 0.000674
+[09:24:25.309] iteration 37 : loss : 0.405941 cons_dist: 0.004375, loss_weight: 0.000674
+[09:24:26.958] iteration 38 : loss : 0.455527 cons_dist: 0.022551, loss_weight: 0.000674
+[09:24:28.633] iteration 39 : loss : 0.428912 cons_dist: 0.003756, loss_weight: 0.000674
+[09:24:30.301] iteration 40 : loss : 0.355006 cons_dist: 0.006735, loss_weight: 0.000674
+[09:24:31.946] iteration 41 : loss : 0.373543 cons_dist: 0.006093, loss_weight: 0.000674
+[09:24:33.593] iteration 42 : loss : 0.434931 cons_dist: 0.014800, loss_weight: 0.000674
+[09:24:35.259] iteration 43 : loss : 0.378922 cons_dist: 0.036793, loss_weight: 0.000674
+[09:24:36.902] iteration 44 : loss : 0.407185 cons_dist: 0.002867, loss_weight: 0.000674
+[09:24:38.560] iteration 45 : loss : 0.390775 cons_dist: 0.009017, loss_weight: 0.000674
+[09:24:40.201] iteration 46 : loss : 0.451338 cons_dist: 0.010348, loss_weight: 0.000674
+[09:24:41.845] iteration 47 : loss : 0.365951 cons_dist: 0.006550, loss_weight: 0.000674
+[09:24:43.497] iteration 48 : loss : 0.438503 cons_dist: 0.032067, loss_weight: 0.000674
+[09:24:45.128] iteration 49 : loss : 0.370924 cons_dist: 0.002604, loss_weight: 0.000674
+[09:24:46.784] iteration 50 : loss : 0.355409 cons_dist: 0.004620, loss_weight: 0.000674
+[09:25:55.203] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=6000, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:25:55.365] 8 itertations per epoch
+[09:25:57.401] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[09:25:59.717] iteration 2 : loss : 0.686801 cons_dist: 0.028979, loss_weight: 0.000674
+[09:26:02.116] iteration 3 : loss : 0.556550 cons_dist: 0.042909, loss_weight: 0.000674
+[09:26:04.516] iteration 4 : loss : 0.526318 cons_dist: 0.009073, loss_weight: 0.000674
+[09:26:06.977] iteration 5 : loss : 0.684011 cons_dist: 0.016724, loss_weight: 0.000674
+[09:26:09.444] iteration 6 : loss : 0.553325 cons_dist: 0.042622, loss_weight: 0.000674
+[09:26:11.951] iteration 7 : loss : 0.544236 cons_dist: 0.024293, loss_weight: 0.000674
+[09:26:20.758] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=100, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:26:20.915] 8 itertations per epoch
+[09:26:24.107] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[09:26:34.481] iteration 2 : loss : 0.686801 cons_dist: 0.028969, loss_weight: 0.000674
+[09:26:45.784] iteration 3 : loss : 0.556550 cons_dist: 0.042868, loss_weight: 0.000674
+[09:26:49.608] iteration 4 : loss : 0.526318 cons_dist: 0.009097, loss_weight: 0.000674
+[09:27:00.109] iteration 5 : loss : 0.684005 cons_dist: 0.016785, loss_weight: 0.000674
+[09:27:10.244] iteration 6 : loss : 0.553353 cons_dist: 0.042676, loss_weight: 0.000674
+[09:27:21.581] iteration 7 : loss : 0.544228 cons_dist: 0.024390, loss_weight: 0.000674
+[09:27:32.096] iteration 8 : loss : 0.543684 cons_dist: 0.022295, loss_weight: 0.000674
+[09:27:42.448] iteration 9 : loss : 0.444763 cons_dist: 0.021338, loss_weight: 0.000674
+[09:27:53.026] iteration 10 : loss : 0.509982 cons_dist: 0.021585, loss_weight: 0.000674
+[09:28:03.732] iteration 11 : loss : 0.539418 cons_dist: 0.021432, loss_weight: 0.000674
+[09:28:07.680] iteration 12 : loss : 0.448842 cons_dist: 0.036336, loss_weight: 0.000674
+[09:28:11.781] iteration 13 : loss : 0.581953 cons_dist: 0.008832, loss_weight: 0.000674
+[09:28:22.103] iteration 14 : loss : 0.463686 cons_dist: 0.016804, loss_weight: 0.000674
+[09:28:32.833] iteration 15 : loss : 0.588780 cons_dist: 0.014791, loss_weight: 0.000674
+[09:28:43.533] iteration 16 : loss : 0.531902 cons_dist: 0.005283, loss_weight: 0.000674
+[09:28:54.202] iteration 17 : loss : 0.393461 cons_dist: 0.012558, loss_weight: 0.000674
+[09:28:57.944] iteration 18 : loss : 0.506584 cons_dist: 0.002006, loss_weight: 0.000674
+[09:29:08.263] iteration 19 : loss : 0.446587 cons_dist: 0.026313, loss_weight: 0.000674
+[09:29:18.805] iteration 20 : loss : 0.478330 cons_dist: 0.012284, loss_weight: 0.000674
+[09:29:29.030] iteration 21 : loss : 0.458705 cons_dist: 0.024718, loss_weight: 0.000674
+[09:29:39.701] iteration 22 : loss : 0.508790 cons_dist: 0.028757, loss_weight: 0.000674
+[09:29:43.988] iteration 23 : loss : 0.456249 cons_dist: 0.020431, loss_weight: 0.000674
+[09:29:48.167] iteration 24 : loss : 0.476164 cons_dist: 0.019587, loss_weight: 0.000674
+[09:29:59.310] iteration 25 : loss : 0.458566 cons_dist: 0.030331, loss_weight: 0.000674
+[09:30:10.277] iteration 26 : loss : 0.456523 cons_dist: 0.004599, loss_weight: 0.000674
+[09:30:20.618] iteration 27 : loss : 0.449418 cons_dist: 0.012321, loss_weight: 0.000674
+[09:30:31.209] iteration 28 : loss : 0.448178 cons_dist: 0.007222, loss_weight: 0.000674
+[09:30:41.438] iteration 29 : loss : 0.414209 cons_dist: 0.004357, loss_weight: 0.000674
+[09:30:51.979] iteration 30 : loss : 0.420422 cons_dist: 0.005422, loss_weight: 0.000674
+[09:31:02.254] iteration 31 : loss : 0.388729 cons_dist: 0.016869, loss_weight: 0.000674
+[09:31:12.829] iteration 32 : loss : 0.433016 cons_dist: 0.003969, loss_weight: 0.000674
+[09:31:23.191] iteration 33 : loss : 0.408451 cons_dist: 0.010074, loss_weight: 0.000674
+[09:31:33.652] iteration 34 : loss : 0.397898 cons_dist: 0.004105, loss_weight: 0.000674
+[09:31:44.302] iteration 35 : loss : 0.439587 cons_dist: 0.019147, loss_weight: 0.000674
+[09:31:54.521] iteration 36 : loss : 0.444092 cons_dist: 0.009792, loss_weight: 0.000674
+[09:31:59.120] iteration 37 : loss : 0.406057 cons_dist: 0.005146, loss_weight: 0.000674
+[09:32:02.972] iteration 38 : loss : 0.454720 cons_dist: 0.022603, loss_weight: 0.000674
+[09:32:06.895] iteration 39 : loss : 0.429480 cons_dist: 0.004147, loss_weight: 0.000674
+[09:32:10.447] iteration 40 : loss : 0.354789 cons_dist: 0.007319, loss_weight: 0.000674
+[09:32:20.625] iteration 41 : loss : 0.375473 cons_dist: 0.006266, loss_weight: 0.000674
+[09:32:24.926] iteration 42 : loss : 0.435861 cons_dist: 0.017065, loss_weight: 0.000674
+[09:32:29.036] iteration 43 : loss : 0.369877 cons_dist: 0.033806, loss_weight: 0.000674
+[09:32:39.347] iteration 44 : loss : 0.409102 cons_dist: 0.003582, loss_weight: 0.000674
+[09:32:49.888] iteration 45 : loss : 0.384159 cons_dist: 0.009261, loss_weight: 0.000674
+[09:32:53.660] iteration 46 : loss : 0.456374 cons_dist: 0.010740, loss_weight: 0.000674
+[09:32:57.753] iteration 47 : loss : 0.369065 cons_dist: 0.007903, loss_weight: 0.000674
+[09:33:08.984] iteration 48 : loss : 0.433808 cons_dist: 0.031298, loss_weight: 0.000674
+[09:33:19.415] iteration 49 : loss : 0.369290 cons_dist: 0.003443, loss_weight: 0.000674
+[09:33:29.641] iteration 50 : loss : 0.355410 cons_dist: 0.005952, loss_weight: 0.000674
+[09:36:07.074] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=50, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:36:07.227] 8 itertations per epoch
+[09:36:18.279] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[09:36:29.302] iteration 2 : loss : 0.686801 cons_dist: 0.028963, loss_weight: 0.000674
+[09:36:41.875] iteration 3 : loss : 0.556550 cons_dist: 0.042852, loss_weight: 0.000674
+[09:36:54.549] iteration 4 : loss : 0.526318 cons_dist: 0.009067, loss_weight: 0.000674
+[09:37:06.687] iteration 5 : loss : 0.684008 cons_dist: 0.016824, loss_weight: 0.000674
+[09:37:20.414] iteration 6 : loss : 0.553350 cons_dist: 0.042747, loss_weight: 0.000674
+[09:37:34.086] iteration 7 : loss : 0.544214 cons_dist: 0.024259, loss_weight: 0.000674
+[09:37:45.960] iteration 8 : loss : 0.544360 cons_dist: 0.022082, loss_weight: 0.000674
+[09:37:59.328] iteration 9 : loss : 0.444842 cons_dist: 0.021377, loss_weight: 0.000674
+[09:38:12.668] iteration 10 : loss : 0.509571 cons_dist: 0.021175, loss_weight: 0.000674
+[09:38:26.014] iteration 11 : loss : 0.539647 cons_dist: 0.021303, loss_weight: 0.000674
+[09:38:39.626] iteration 12 : loss : 0.448526 cons_dist: 0.036454, loss_weight: 0.000674
+[09:38:53.003] iteration 13 : loss : 0.580498 cons_dist: 0.009164, loss_weight: 0.000674
+[09:39:06.433] iteration 14 : loss : 0.463656 cons_dist: 0.016916, loss_weight: 0.000674
+[09:39:20.065] iteration 15 : loss : 0.588824 cons_dist: 0.015076, loss_weight: 0.000674
+[09:39:32.059] iteration 16 : loss : 0.532274 cons_dist: 0.005324, loss_weight: 0.000674
+[09:39:45.539] iteration 17 : loss : 0.394766 cons_dist: 0.013588, loss_weight: 0.000674
+[09:39:57.571] iteration 18 : loss : 0.508845 cons_dist: 0.002168, loss_weight: 0.000674
+[09:40:09.324] iteration 19 : loss : 0.446497 cons_dist: 0.027792, loss_weight: 0.000674
+[09:40:22.787] iteration 20 : loss : 0.478362 cons_dist: 0.012880, loss_weight: 0.000674
+[09:40:36.271] iteration 21 : loss : 0.463137 cons_dist: 0.024692, loss_weight: 0.000674
+[09:40:48.078] iteration 22 : loss : 0.510147 cons_dist: 0.027276, loss_weight: 0.000674
+[09:41:01.391] iteration 23 : loss : 0.457513 cons_dist: 0.020018, loss_weight: 0.000674
+[09:41:15.088] iteration 24 : loss : 0.472980 cons_dist: 0.019631, loss_weight: 0.000674
+[09:41:28.612] iteration 25 : loss : 0.456698 cons_dist: 0.028729, loss_weight: 0.000674
+[09:41:41.406] iteration 26 : loss : 0.455622 cons_dist: 0.005009, loss_weight: 0.000674
+[09:41:54.604] iteration 27 : loss : 0.448192 cons_dist: 0.011983, loss_weight: 0.000674
+[09:42:06.682] iteration 28 : loss : 0.449308 cons_dist: 0.007091, loss_weight: 0.000674
+[09:42:18.020] iteration 29 : loss : 0.413730 cons_dist: 0.004837, loss_weight: 0.000674
+[09:42:31.240] iteration 30 : loss : 0.420544 cons_dist: 0.005866, loss_weight: 0.000674
+[09:42:43.621] iteration 31 : loss : 0.387819 cons_dist: 0.018558, loss_weight: 0.000674
+[09:42:55.834] iteration 32 : loss : 0.432036 cons_dist: 0.005143, loss_weight: 0.000674
+[09:43:08.957] iteration 33 : loss : 0.411701 cons_dist: 0.011888, loss_weight: 0.000674
+[09:43:19.767] iteration 34 : loss : 0.390422 cons_dist: 0.004615, loss_weight: 0.000674
+[09:43:31.720] iteration 35 : loss : 0.437771 cons_dist: 0.018633, loss_weight: 0.000674
+[09:43:42.871] iteration 36 : loss : 0.440417 cons_dist: 0.009745, loss_weight: 0.000674
+[09:43:55.888] iteration 37 : loss : 0.402749 cons_dist: 0.005335, loss_weight: 0.000674
+[09:44:39.894] iteration 38 : loss : 0.453262 cons_dist: 0.018839, loss_weight: 0.000674
+[09:44:53.304] iteration 39 : loss : 0.433946 cons_dist: 0.005362, loss_weight: 0.000674
+[09:45:06.675] iteration 40 : loss : 0.353863 cons_dist: 0.011320, loss_weight: 0.000674
+[09:45:19.890] iteration 41 : loss : 0.371972 cons_dist: 0.010767, loss_weight: 0.000674
+[09:45:33.234] iteration 42 : loss : 0.434019 cons_dist: 0.034392, loss_weight: 0.000674
+[09:45:46.625] iteration 43 : loss : 0.379076 cons_dist: 0.025253, loss_weight: 0.000674
+[09:45:58.373] iteration 44 : loss : 0.406085 cons_dist: 0.004733, loss_weight: 0.000674
+[09:46:11.740] iteration 45 : loss : 0.394257 cons_dist: 0.014205, loss_weight: 0.000674
+[09:46:25.238] iteration 46 : loss : 0.452522 cons_dist: 0.012779, loss_weight: 0.000674
+[09:46:38.702] iteration 47 : loss : 0.363277 cons_dist: 0.008571, loss_weight: 0.000674
+[09:46:51.981] iteration 48 : loss : 0.438924 cons_dist: 0.029965, loss_weight: 0.000674
+[09:47:05.318] iteration 49 : loss : 0.373523 cons_dist: 0.004326, loss_weight: 0.000674
+[09:47:18.639] iteration 50 : loss : 0.356402 cons_dist: 0.010202, loss_weight: 0.000674
+[09:47:44.307] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=25, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:47:44.469] 8 itertations per epoch
+[09:47:58.382] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[09:48:12.116] iteration 2 : loss : 0.686801 cons_dist: 0.028961, loss_weight: 0.000674
+[09:48:25.480] iteration 3 : loss : 0.556550 cons_dist: 0.042760, loss_weight: 0.000674
+[09:48:37.672] iteration 4 : loss : 0.526317 cons_dist: 0.009049, loss_weight: 0.000674
+[09:48:51.228] iteration 5 : loss : 0.684022 cons_dist: 0.017076, loss_weight: 0.000674
+[09:49:04.696] iteration 6 : loss : 0.553381 cons_dist: 0.043032, loss_weight: 0.000674
+[09:49:18.288] iteration 7 : loss : 0.544245 cons_dist: 0.023934, loss_weight: 0.000674
+[09:49:32.099] iteration 8 : loss : 0.544035 cons_dist: 0.021087, loss_weight: 0.000674
+[09:49:45.593] iteration 9 : loss : 0.444970 cons_dist: 0.021649, loss_weight: 0.000674
+[09:49:58.727] iteration 10 : loss : 0.509799 cons_dist: 0.019244, loss_weight: 0.000674
+[09:50:12.509] iteration 11 : loss : 0.539688 cons_dist: 0.021123, loss_weight: 0.000674
+[09:50:25.812] iteration 12 : loss : 0.448620 cons_dist: 0.035277, loss_weight: 0.000674
+[09:50:39.280] iteration 13 : loss : 0.580923 cons_dist: 0.010343, loss_weight: 0.000674
+[09:50:52.565] iteration 14 : loss : 0.463961 cons_dist: 0.018310, loss_weight: 0.000674
+[09:51:05.932] iteration 15 : loss : 0.589189 cons_dist: 0.017060, loss_weight: 0.000674
+[09:51:19.023] iteration 16 : loss : 0.532143 cons_dist: 0.006103, loss_weight: 0.000674
+[09:51:31.983] iteration 17 : loss : 0.394317 cons_dist: 0.023118, loss_weight: 0.000674
+[09:51:45.221] iteration 18 : loss : 0.508680 cons_dist: 0.003828, loss_weight: 0.000674
+[09:51:58.690] iteration 19 : loss : 0.446536 cons_dist: 0.034328, loss_weight: 0.000674
+[09:52:11.686] iteration 20 : loss : 0.478198 cons_dist: 0.020583, loss_weight: 0.000674
+[09:52:25.151] iteration 21 : loss : 0.461073 cons_dist: 0.022533, loss_weight: 0.000674
+[09:52:38.940] iteration 22 : loss : 0.510130 cons_dist: 0.022752, loss_weight: 0.000674
+[09:52:52.368] iteration 23 : loss : 0.456340 cons_dist: 0.014481, loss_weight: 0.000674
+[09:53:06.229] iteration 24 : loss : 0.475669 cons_dist: 0.014959, loss_weight: 0.000674
+[09:53:19.915] iteration 25 : loss : 0.460835 cons_dist: 0.021527, loss_weight: 0.000674
+[09:53:19.973] save model to ../model/UAMT_unlabel/iter_25.pth
+[09:40:23.994] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=25, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[09:40:24.218] 8 itertations per epoch
+[09:40:26.463] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[09:40:27.886] iteration 2 : loss : 0.686801 cons_dist: 0.028961, loss_weight: 0.000674
+[09:40:29.267] iteration 3 : loss : 0.556550 cons_dist: 0.042760, loss_weight: 0.000674
+[09:40:30.653] iteration 4 : loss : 0.526317 cons_dist: 0.009049, loss_weight: 0.000674
+[09:40:32.081] iteration 5 : loss : 0.684022 cons_dist: 0.017076, loss_weight: 0.000674
+[09:41:01.243] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=25, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[18:25:13.209] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=10, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[18:25:13.400] 8 itertations per epoch
+[18:25:15.340] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[18:25:16.767] iteration 2 : loss : 0.686801 cons_dist: 0.028977, loss_weight: 0.000674
+[18:25:18.168] iteration 3 : loss : 0.556550 cons_dist: 0.042160, loss_weight: 0.000674
+[18:25:19.564] iteration 4 : loss : 0.526318 cons_dist: 0.009202, loss_weight: 0.000674
+[18:25:20.970] iteration 5 : loss : 0.683983 cons_dist: 0.018638, loss_weight: 0.000674
+[18:25:22.377] iteration 6 : loss : 0.553372 cons_dist: 0.046969, loss_weight: 0.000674
+[18:25:23.775] iteration 7 : loss : 0.544202 cons_dist: 0.022931, loss_weight: 0.000674
+[18:25:25.187] iteration 8 : loss : 0.544569 cons_dist: 0.013310, loss_weight: 0.000674
+[18:25:26.556] iteration 9 : loss : 0.444937 cons_dist: 0.023234, loss_weight: 0.000674
+[18:25:27.951] iteration 10 : loss : 0.509309 cons_dist: 0.014263, loss_weight: 0.000674
+[18:25:28.008] save model to ../model/UAMT_unlabel/iter_10.pth
+[18:30:26.049] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=100, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[18:30:26.569] 8 itertations per epoch
+[18:30:28.002] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[18:30:30.093] iteration 2 : loss : 0.686801 cons_dist: 0.028969, loss_weight: 0.000674
+[18:30:32.355] iteration 3 : loss : 0.556550 cons_dist: 0.042868, loss_weight: 0.000674
+[18:30:34.607] iteration 4 : loss : 0.526318 cons_dist: 0.009097, loss_weight: 0.000674
+[18:30:36.785] iteration 5 : loss : 0.684005 cons_dist: 0.016785, loss_weight: 0.000674
+[18:30:38.986] iteration 6 : loss : 0.553353 cons_dist: 0.042676, loss_weight: 0.000674
+[18:30:41.250] iteration 7 : loss : 0.544228 cons_dist: 0.024390, loss_weight: 0.000674
+[18:30:43.517] iteration 8 : loss : 0.543684 cons_dist: 0.022295, loss_weight: 0.000674
+[18:30:45.766] iteration 9 : loss : 0.444763 cons_dist: 0.021338, loss_weight: 0.000674
+[18:30:48.014] iteration 10 : loss : 0.509982 cons_dist: 0.021585, loss_weight: 0.000674
+[18:30:50.285] iteration 11 : loss : 0.539418 cons_dist: 0.021432, loss_weight: 0.000674
+[18:30:52.536] iteration 12 : loss : 0.448842 cons_dist: 0.036336, loss_weight: 0.000674
+[18:30:54.704] iteration 13 : loss : 0.581953 cons_dist: 0.008832, loss_weight: 0.000674
+[18:30:56.922] iteration 14 : loss : 0.463686 cons_dist: 0.016804, loss_weight: 0.000674
+[18:30:59.118] iteration 15 : loss : 0.588780 cons_dist: 0.014791, loss_weight: 0.000674
+[18:31:01.352] iteration 16 : loss : 0.531902 cons_dist: 0.005283, loss_weight: 0.000674
+[18:31:03.556] iteration 17 : loss : 0.393461 cons_dist: 0.012558, loss_weight: 0.000674
+[18:31:05.774] iteration 18 : loss : 0.506584 cons_dist: 0.002006, loss_weight: 0.000674
+[18:31:07.992] iteration 19 : loss : 0.446587 cons_dist: 0.026313, loss_weight: 0.000674
+[18:31:10.212] iteration 20 : loss : 0.478330 cons_dist: 0.012284, loss_weight: 0.000674
+[18:31:12.493] iteration 21 : loss : 0.458705 cons_dist: 0.024718, loss_weight: 0.000674
+[18:31:14.821] iteration 22 : loss : 0.508790 cons_dist: 0.028757, loss_weight: 0.000674
+[18:31:17.006] iteration 23 : loss : 0.456249 cons_dist: 0.020431, loss_weight: 0.000674
+[18:31:19.266] iteration 24 : loss : 0.476164 cons_dist: 0.019587, loss_weight: 0.000674
+[18:31:21.531] iteration 25 : loss : 0.458566 cons_dist: 0.030331, loss_weight: 0.000674
+[18:31:23.684] iteration 26 : loss : 0.456523 cons_dist: 0.004599, loss_weight: 0.000674
+[18:31:25.950] iteration 27 : loss : 0.449418 cons_dist: 0.012321, loss_weight: 0.000674
+[18:31:28.113] iteration 28 : loss : 0.448178 cons_dist: 0.007222, loss_weight: 0.000674
+[18:31:30.280] iteration 29 : loss : 0.414209 cons_dist: 0.004357, loss_weight: 0.000674
+[18:31:32.471] iteration 30 : loss : 0.420422 cons_dist: 0.005422, loss_weight: 0.000674
+[18:31:34.733] iteration 31 : loss : 0.388729 cons_dist: 0.016869, loss_weight: 0.000674
+[18:31:36.941] iteration 32 : loss : 0.433016 cons_dist: 0.003969, loss_weight: 0.000674
+[18:31:39.113] iteration 33 : loss : 0.408451 cons_dist: 0.010074, loss_weight: 0.000674
+[18:31:41.283] iteration 34 : loss : 0.397898 cons_dist: 0.004105, loss_weight: 0.000674
+[18:31:43.464] iteration 35 : loss : 0.439587 cons_dist: 0.019147, loss_weight: 0.000674
+[18:31:45.711] iteration 36 : loss : 0.444092 cons_dist: 0.009792, loss_weight: 0.000674
+[18:31:47.953] iteration 37 : loss : 0.406057 cons_dist: 0.005146, loss_weight: 0.000674
+[18:31:50.120] iteration 38 : loss : 0.454720 cons_dist: 0.022603, loss_weight: 0.000674
+[18:31:52.377] iteration 39 : loss : 0.429480 cons_dist: 0.004147, loss_weight: 0.000674
+[18:31:54.649] iteration 40 : loss : 0.354789 cons_dist: 0.007319, loss_weight: 0.000674
+[18:31:56.823] iteration 41 : loss : 0.375473 cons_dist: 0.006266, loss_weight: 0.000674
+[18:31:59.013] iteration 42 : loss : 0.435861 cons_dist: 0.017065, loss_weight: 0.000674
+[18:32:01.297] iteration 43 : loss : 0.369877 cons_dist: 0.033806, loss_weight: 0.000674
+[18:32:03.472] iteration 44 : loss : 0.409102 cons_dist: 0.003582, loss_weight: 0.000674
+[18:32:05.647] iteration 45 : loss : 0.384159 cons_dist: 0.009261, loss_weight: 0.000674
+[18:32:07.892] iteration 46 : loss : 0.456374 cons_dist: 0.010740, loss_weight: 0.000674
+[18:32:10.053] iteration 47 : loss : 0.369065 cons_dist: 0.007903, loss_weight: 0.000674
+[18:32:12.215] iteration 48 : loss : 0.433808 cons_dist: 0.031298, loss_weight: 0.000674
+[18:32:14.451] iteration 49 : loss : 0.369290 cons_dist: 0.003443, loss_weight: 0.000674
+[18:32:16.716] iteration 50 : loss : 0.355410 cons_dist: 0.005952, loss_weight: 0.000674
+[18:33:42.288] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=100, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[18:33:42.439] 8 itertations per epoch
+[18:33:45.218] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[18:33:47.592] iteration 2 : loss : 0.686801 cons_dist: 0.028969, loss_weight: 0.000674
+[18:33:55.280] iteration 3 : loss : 0.556550 cons_dist: 0.042868, loss_weight: 0.000674
+[18:33:57.693] iteration 4 : loss : 0.526318 cons_dist: 0.009097, loss_weight: 0.000674
+[18:34:05.178] iteration 5 : loss : 0.684005 cons_dist: 0.016785, loss_weight: 0.000674
+[18:34:12.835] iteration 6 : loss : 0.553353 cons_dist: 0.042676, loss_weight: 0.000674
+[18:34:20.768] iteration 7 : loss : 0.544228 cons_dist: 0.024390, loss_weight: 0.000674
+[18:34:28.613] iteration 8 : loss : 0.543684 cons_dist: 0.022295, loss_weight: 0.000674
+[18:34:36.360] iteration 9 : loss : 0.444763 cons_dist: 0.021338, loss_weight: 0.000674
+[18:34:38.669] iteration 10 : loss : 0.509982 cons_dist: 0.021585, loss_weight: 0.000674
+[18:34:46.269] iteration 11 : loss : 0.539418 cons_dist: 0.021432, loss_weight: 0.000674
+[18:34:48.575] iteration 12 : loss : 0.448842 cons_dist: 0.036336, loss_weight: 0.000674
+[18:34:56.336] iteration 13 : loss : 0.581953 cons_dist: 0.008832, loss_weight: 0.000674
+[18:35:03.964] iteration 14 : loss : 0.463686 cons_dist: 0.016804, loss_weight: 0.000674
+[18:35:11.754] iteration 15 : loss : 0.588780 cons_dist: 0.014791, loss_weight: 0.000674
+[18:35:19.395] iteration 16 : loss : 0.531902 cons_dist: 0.005283, loss_weight: 0.000674
+[18:35:26.884] iteration 17 : loss : 0.393461 cons_dist: 0.012558, loss_weight: 0.000674
+[18:35:34.323] iteration 18 : loss : 0.506584 cons_dist: 0.002006, loss_weight: 0.000674
+[18:35:36.965] iteration 19 : loss : 0.446587 cons_dist: 0.026313, loss_weight: 0.000674
+[18:35:44.400] iteration 20 : loss : 0.478330 cons_dist: 0.012284, loss_weight: 0.000674
+[18:35:47.005] iteration 21 : loss : 0.458705 cons_dist: 0.024718, loss_weight: 0.000674
+[18:35:54.488] iteration 22 : loss : 0.508790 cons_dist: 0.028757, loss_weight: 0.000674
+[18:35:56.787] iteration 23 : loss : 0.456249 cons_dist: 0.020431, loss_weight: 0.000674
+[18:36:04.260] iteration 24 : loss : 0.476164 cons_dist: 0.019587, loss_weight: 0.000674
+[18:36:06.568] iteration 25 : loss : 0.458566 cons_dist: 0.030331, loss_weight: 0.000674
+[18:36:13.980] iteration 26 : loss : 0.456523 cons_dist: 0.004599, loss_weight: 0.000674
+[18:36:21.416] iteration 27 : loss : 0.449418 cons_dist: 0.012321, loss_weight: 0.000674
+[18:36:28.863] iteration 28 : loss : 0.448178 cons_dist: 0.007222, loss_weight: 0.000674
+[18:36:31.471] iteration 29 : loss : 0.414209 cons_dist: 0.004357, loss_weight: 0.000674
+[18:36:34.058] iteration 30 : loss : 0.420422 cons_dist: 0.005422, loss_weight: 0.000674
+[18:36:41.452] iteration 31 : loss : 0.388729 cons_dist: 0.016869, loss_weight: 0.000674
+[18:36:48.892] iteration 32 : loss : 0.433016 cons_dist: 0.003969, loss_weight: 0.000674
+[18:36:51.510] iteration 33 : loss : 0.408451 cons_dist: 0.010074, loss_weight: 0.000674
+[18:36:58.896] iteration 34 : loss : 0.397898 cons_dist: 0.004105, loss_weight: 0.000674
+[18:37:06.448] iteration 35 : loss : 0.439587 cons_dist: 0.019147, loss_weight: 0.000674
+[18:37:13.856] iteration 36 : loss : 0.444092 cons_dist: 0.009792, loss_weight: 0.000674
+[18:37:21.257] iteration 37 : loss : 0.406057 cons_dist: 0.005146, loss_weight: 0.000674
+[18:37:23.852] iteration 38 : loss : 0.454720 cons_dist: 0.022603, loss_weight: 0.000674
+[18:37:31.276] iteration 39 : loss : 0.429480 cons_dist: 0.004147, loss_weight: 0.000674
+[18:37:38.702] iteration 40 : loss : 0.354789 cons_dist: 0.007319, loss_weight: 0.000674
+[18:37:46.117] iteration 41 : loss : 0.375473 cons_dist: 0.006266, loss_weight: 0.000674
+[18:37:53.571] iteration 42 : loss : 0.435861 cons_dist: 0.017065, loss_weight: 0.000674
+[18:38:00.986] iteration 43 : loss : 0.369877 cons_dist: 0.033806, loss_weight: 0.000674
+[18:38:08.469] iteration 44 : loss : 0.409102 cons_dist: 0.003582, loss_weight: 0.000674
+[18:38:11.081] iteration 45 : loss : 0.384159 cons_dist: 0.009261, loss_weight: 0.000674
+[18:38:13.378] iteration 46 : loss : 0.456374 cons_dist: 0.010740, loss_weight: 0.000674
+[18:38:21.019] iteration 47 : loss : 0.369065 cons_dist: 0.007903, loss_weight: 0.000674
+[18:38:23.648] iteration 48 : loss : 0.433808 cons_dist: 0.031298, loss_weight: 0.000674
+[18:38:31.042] iteration 49 : loss : 0.369290 cons_dist: 0.003443, loss_weight: 0.000674
+[18:38:38.508] iteration 50 : loss : 0.355410 cons_dist: 0.005952, loss_weight: 0.000674
+[18:39:17.552] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=50, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[18:39:17.709] 8 itertations per epoch
+[18:39:28.253] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[18:39:38.917] iteration 2 : loss : 0.686801 cons_dist: 0.028963, loss_weight: 0.000674
+[18:39:49.762] iteration 3 : loss : 0.556550 cons_dist: 0.042852, loss_weight: 0.000674
+[18:40:00.602] iteration 4 : loss : 0.526318 cons_dist: 0.009067, loss_weight: 0.000674
+[18:40:11.574] iteration 5 : loss : 0.684008 cons_dist: 0.016824, loss_weight: 0.000674
+[18:40:22.148] iteration 6 : loss : 0.553350 cons_dist: 0.042747, loss_weight: 0.000674
+[18:40:32.822] iteration 7 : loss : 0.544214 cons_dist: 0.024259, loss_weight: 0.000674
+[18:40:45.201] iteration 8 : loss : 0.544360 cons_dist: 0.022082, loss_weight: 0.000674
+[18:40:56.766] iteration 9 : loss : 0.444842 cons_dist: 0.021377, loss_weight: 0.000674
+[18:41:07.950] iteration 10 : loss : 0.509571 cons_dist: 0.021175, loss_weight: 0.000674
+[18:41:19.230] iteration 11 : loss : 0.539647 cons_dist: 0.021303, loss_weight: 0.000674
+[18:41:30.544] iteration 12 : loss : 0.448526 cons_dist: 0.036454, loss_weight: 0.000674
+[18:41:41.892] iteration 13 : loss : 0.580498 cons_dist: 0.009164, loss_weight: 0.000674
+[18:41:53.203] iteration 14 : loss : 0.463656 cons_dist: 0.016916, loss_weight: 0.000674
+[18:42:04.671] iteration 15 : loss : 0.588824 cons_dist: 0.015076, loss_weight: 0.000674
+[18:42:15.936] iteration 16 : loss : 0.532274 cons_dist: 0.005324, loss_weight: 0.000674
+[18:42:26.947] iteration 17 : loss : 0.394766 cons_dist: 0.013588, loss_weight: 0.000674
+[18:42:38.289] iteration 18 : loss : 0.508845 cons_dist: 0.002168, loss_weight: 0.000674
+[18:42:49.570] iteration 19 : loss : 0.446497 cons_dist: 0.027792, loss_weight: 0.000674
+[18:43:01.032] iteration 20 : loss : 0.478362 cons_dist: 0.012880, loss_weight: 0.000674
+[18:43:12.214] iteration 21 : loss : 0.463137 cons_dist: 0.024692, loss_weight: 0.000674
+[18:43:23.643] iteration 22 : loss : 0.510146 cons_dist: 0.027276, loss_weight: 0.000674
+[18:43:34.952] iteration 23 : loss : 0.457513 cons_dist: 0.020018, loss_weight: 0.000674
+[18:43:46.151] iteration 24 : loss : 0.472980 cons_dist: 0.019631, loss_weight: 0.000674
+[18:43:57.503] iteration 25 : loss : 0.456698 cons_dist: 0.028729, loss_weight: 0.000674
+[18:44:08.735] iteration 26 : loss : 0.455622 cons_dist: 0.005009, loss_weight: 0.000674
+[18:44:20.095] iteration 27 : loss : 0.448192 cons_dist: 0.011983, loss_weight: 0.000674
+[18:44:31.426] iteration 28 : loss : 0.449308 cons_dist: 0.007091, loss_weight: 0.000674
+[18:44:42.821] iteration 29 : loss : 0.413730 cons_dist: 0.004837, loss_weight: 0.000674
+[18:44:54.308] iteration 30 : loss : 0.420544 cons_dist: 0.005866, loss_weight: 0.000674
+[18:45:05.711] iteration 31 : loss : 0.387819 cons_dist: 0.018558, loss_weight: 0.000674
+[18:45:17.056] iteration 32 : loss : 0.432036 cons_dist: 0.005143, loss_weight: 0.000674
+[18:45:28.780] iteration 33 : loss : 0.411701 cons_dist: 0.011888, loss_weight: 0.000674
+[18:45:40.698] iteration 34 : loss : 0.390422 cons_dist: 0.004615, loss_weight: 0.000674
+[18:45:52.873] iteration 35 : loss : 0.437771 cons_dist: 0.018633, loss_weight: 0.000674
+[18:46:04.229] iteration 36 : loss : 0.440417 cons_dist: 0.009745, loss_weight: 0.000674
+[18:46:15.552] iteration 37 : loss : 0.402748 cons_dist: 0.005335, loss_weight: 0.000674
+[18:46:26.903] iteration 38 : loss : 0.453262 cons_dist: 0.018839, loss_weight: 0.000674
+[18:46:38.220] iteration 39 : loss : 0.433946 cons_dist: 0.005362, loss_weight: 0.000674
+[18:46:49.681] iteration 40 : loss : 0.353863 cons_dist: 0.011320, loss_weight: 0.000674
+[18:47:01.049] iteration 41 : loss : 0.371972 cons_dist: 0.010767, loss_weight: 0.000674
+[18:47:12.475] iteration 42 : loss : 0.434019 cons_dist: 0.034392, loss_weight: 0.000674
+[18:47:23.347] iteration 43 : loss : 0.379076 cons_dist: 0.025253, loss_weight: 0.000674
+[18:47:33.443] iteration 44 : loss : 0.406085 cons_dist: 0.004733, loss_weight: 0.000674
+[18:47:44.002] iteration 45 : loss : 0.394257 cons_dist: 0.014205, loss_weight: 0.000674
+[18:47:54.752] iteration 46 : loss : 0.452522 cons_dist: 0.012779, loss_weight: 0.000674
+[18:48:05.384] iteration 47 : loss : 0.363277 cons_dist: 0.008571, loss_weight: 0.000674
+[18:48:16.304] iteration 48 : loss : 0.438924 cons_dist: 0.029965, loss_weight: 0.000674
+[18:48:26.368] iteration 49 : loss : 0.373523 cons_dist: 0.004326, loss_weight: 0.000674
+[18:48:37.118] iteration 50 : loss : 0.356402 cons_dist: 0.010202, loss_weight: 0.000674
+[18:48:37.346] save model to ../model/UAMT_unlabel/iter_50.pth
+[18:49:14.572] Namespace(root_path='../data/2018LA_Seg_Training Set/', exp='UAMT_unlabel', max_iterations=100, batch_size=4, labeled_bs=2, base_lr=0.01, deterministic=1, seed=1337, gpu='0', ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=40.0)
+[18:49:14.721] 8 itertations per epoch
+[18:49:25.768] iteration 1 : loss : 0.570945 cons_dist: 0.275798, loss_weight: 0.000674
+[18:49:40.568] iteration 2 : loss : 0.686801 cons_dist: 0.028969, loss_weight: 0.000674
+[18:49:54.091] iteration 3 : loss : 0.556550 cons_dist: 0.042868, loss_weight: 0.000674
+[18:50:08.756] iteration 4 : loss : 0.526318 cons_dist: 0.009097, loss_weight: 0.000674
+[18:50:22.932] iteration 5 : loss : 0.684005 cons_dist: 0.016785, loss_weight: 0.000674
+[18:50:33.886] iteration 6 : loss : 0.553353 cons_dist: 0.042676, loss_weight: 0.000674
+[18:50:44.341] iteration 7 : loss : 0.544228 cons_dist: 0.024390, loss_weight: 0.000674
+[18:50:55.545] iteration 8 : loss : 0.543684 cons_dist: 0.022295, loss_weight: 0.000674
+[18:51:06.977] iteration 9 : loss : 0.444763 cons_dist: 0.021338, loss_weight: 0.000674
+[18:51:18.141] iteration 10 : loss : 0.509982 cons_dist: 0.021585, loss_weight: 0.000674
+[18:51:29.356] iteration 11 : loss : 0.539418 cons_dist: 0.021432, loss_weight: 0.000674
+[18:51:40.338] iteration 12 : loss : 0.448842 cons_dist: 0.036336, loss_weight: 0.000674
+[18:51:51.799] iteration 13 : loss : 0.581953 cons_dist: 0.008832, loss_weight: 0.000674
+[18:52:02.590] iteration 14 : loss : 0.463686 cons_dist: 0.016804, loss_weight: 0.000674
+[18:52:13.159] iteration 15 : loss : 0.588780 cons_dist: 0.014791, loss_weight: 0.000674
+[18:52:24.300] iteration 16 : loss : 0.531902 cons_dist: 0.005283, loss_weight: 0.000674
+[18:52:34.088] iteration 17 : loss : 0.393461 cons_dist: 0.012558, loss_weight: 0.000674
+[18:52:48.354] iteration 18 : loss : 0.506584 cons_dist: 0.002006, loss_weight: 0.000674
+[18:53:02.713] iteration 19 : loss : 0.446587 cons_dist: 0.026313, loss_weight: 0.000674
+[18:53:12.490] iteration 20 : loss : 0.478330 cons_dist: 0.012284, loss_weight: 0.000674
+[18:53:22.834] iteration 21 : loss : 0.458705 cons_dist: 0.024718, loss_weight: 0.000674
+[18:53:33.315] iteration 22 : loss : 0.508790 cons_dist: 0.028757, loss_weight: 0.000674
+[18:53:48.148] iteration 23 : loss : 0.456249 cons_dist: 0.020431, loss_weight: 0.000674
+[18:54:04.623] iteration 24 : loss : 0.476164 cons_dist: 0.019587, loss_weight: 0.000674
+[18:54:15.077] iteration 25 : loss : 0.458566 cons_dist: 0.030331, loss_weight: 0.000674
+[18:54:26.282] iteration 26 : loss : 0.456523 cons_dist: 0.004599, loss_weight: 0.000674
+[18:54:35.396] iteration 27 : loss : 0.449418 cons_dist: 0.012321, loss_weight: 0.000674
+[18:54:45.248] iteration 28 : loss : 0.448178 cons_dist: 0.007222, loss_weight: 0.000674
+[18:54:55.385] iteration 29 : loss : 0.414209 cons_dist: 0.004357, loss_weight: 0.000674
+[18:55:09.946] iteration 30 : loss : 0.420422 cons_dist: 0.005422, loss_weight: 0.000674
+[18:55:25.077] iteration 31 : loss : 0.388729 cons_dist: 0.016869, loss_weight: 0.000674
+[18:55:36.423] iteration 32 : loss : 0.433016 cons_dist: 0.003969, loss_weight: 0.000674
+[18:55:51.301] iteration 33 : loss : 0.408451 cons_dist: 0.010074, loss_weight: 0.000674
+[18:56:07.065] iteration 34 : loss : 0.397898 cons_dist: 0.004105, loss_weight: 0.000674
+[18:56:22.722] iteration 35 : loss : 0.439587 cons_dist: 0.019147, loss_weight: 0.000674
+[18:56:34.165] iteration 36 : loss : 0.444092 cons_dist: 0.009792, loss_weight: 0.000674
+[18:56:45.507] iteration 37 : loss : 0.406057 cons_dist: 0.005146, loss_weight: 0.000674
+[18:57:00.824] iteration 38 : loss : 0.454720 cons_dist: 0.022603, loss_weight: 0.000674
+[18:57:16.505] iteration 39 : loss : 0.429480 cons_dist: 0.004147, loss_weight: 0.000674
+[18:57:31.580] iteration 40 : loss : 0.354789 cons_dist: 0.007319, loss_weight: 0.000674
+[18:57:42.578] iteration 41 : loss : 0.375473 cons_dist: 0.006266, loss_weight: 0.000674
+[18:57:58.182] iteration 42 : loss : 0.435861 cons_dist: 0.017065, loss_weight: 0.000674
+[18:58:12.353] iteration 43 : loss : 0.369877 cons_dist: 0.033806, loss_weight: 0.000674
+[18:58:24.329] iteration 44 : loss : 0.409102 cons_dist: 0.003582, loss_weight: 0.000674
+[18:58:40.028] iteration 45 : loss : 0.384159 cons_dist: 0.009261, loss_weight: 0.000674
+[18:58:51.334] iteration 46 : loss : 0.456374 cons_dist: 0.010740, loss_weight: 0.000674
+[18:59:02.713] iteration 47 : loss : 0.369065 cons_dist: 0.007903, loss_weight: 0.000674
+[18:59:14.144] iteration 48 : loss : 0.433808 cons_dist: 0.031298, loss_weight: 0.000674
+[18:59:25.193] iteration 49 : loss : 0.369290 cons_dist: 0.003443, loss_weight: 0.000674
+[18:59:39.917] iteration 50 : loss : 0.355410 cons_dist: 0.005952, loss_weight: 0.000674
+[18:59:50.746] iteration 51 : loss : 0.336536 cons_dist: 0.010143, loss_weight: 0.000674
+[19:00:01.753] iteration 52 : loss : 0.334383 cons_dist: 0.008705, loss_weight: 0.000674
+[19:00:13.085] iteration 53 : loss : 0.398228 cons_dist: 0.012825, loss_weight: 0.000674
+[19:00:27.599] iteration 54 : loss : 0.355049 cons_dist: 0.015149, loss_weight: 0.000674
+[19:00:43.259] iteration 55 : loss : 0.392973 cons_dist: 0.010381, loss_weight: 0.000674
+[19:00:58.490] iteration 56 : loss : 0.411830 cons_dist: 0.013270, loss_weight: 0.000674
+[19:01:13.507] iteration 57 : loss : 0.385476 cons_dist: 0.012130, loss_weight: 0.000674
+[19:01:28.139] iteration 58 : loss : 0.485168 cons_dist: 0.014962, loss_weight: 0.000674
+[19:01:43.508] iteration 59 : loss : 0.452883 cons_dist: 0.010235, loss_weight: 0.000674
+[19:01:54.448] iteration 60 : loss : 0.375223 cons_dist: 0.012844, loss_weight: 0.000674
+[19:02:08.502] iteration 61 : loss : 0.417557 cons_dist: 0.013012, loss_weight: 0.000674
+[19:02:22.685] iteration 62 : loss : 0.391368 cons_dist: 0.005628, loss_weight: 0.000674
+[19:02:37.515] iteration 63 : loss : 0.376835 cons_dist: 0.013893, loss_weight: 0.000674
+[19:02:53.678] iteration 64 : loss : 0.388473 cons_dist: 0.012907, loss_weight: 0.000674
+[19:03:07.531] iteration 65 : loss : 0.388068 cons_dist: 0.021074, loss_weight: 0.000674
+[19:03:22.223] iteration 66 : loss : 0.368713 cons_dist: 0.006673, loss_weight: 0.000674
+[19:03:37.867] iteration 67 : loss : 0.406950 cons_dist: 0.015863, loss_weight: 0.000674
+[19:03:52.992] iteration 68 : loss : 0.399029 cons_dist: 0.017767, loss_weight: 0.000674
+[19:04:09.263] iteration 69 : loss : 0.482036 cons_dist: 0.012637, loss_weight: 0.000674
+[19:04:20.831] iteration 70 : loss : 0.382140 cons_dist: 0.031789, loss_weight: 0.000674
+[19:04:32.004] iteration 71 : loss : 0.426484 cons_dist: 0.005645, loss_weight: 0.000674
+[19:04:46.814] iteration 72 : loss : 0.332015 cons_dist: 0.019871, loss_weight: 0.000674
+[19:05:00.776] iteration 73 : loss : 0.359887 cons_dist: 0.020630, loss_weight: 0.000674
+[19:05:15.858] iteration 74 : loss : 0.327484 cons_dist: 0.009636, loss_weight: 0.000674
+[19:05:27.294] iteration 75 : loss : 0.398526 cons_dist: 0.011541, loss_weight: 0.000674
+[19:05:43.900] iteration 76 : loss : 0.374561 cons_dist: 0.011895, loss_weight: 0.000674
+[19:05:58.751] iteration 77 : loss : 0.382027 cons_dist: 0.019276, loss_weight: 0.000674
+[19:06:10.558] iteration 78 : loss : 0.326075 cons_dist: 0.010720, loss_weight: 0.000674
+[19:06:26.478] iteration 79 : loss : 0.335075 cons_dist: 0.009204, loss_weight: 0.000674
+[19:06:41.685] iteration 80 : loss : 0.350858 cons_dist: 0.016253, loss_weight: 0.000674
+[19:06:56.138] iteration 81 : loss : 0.280728 cons_dist: 0.016180, loss_weight: 0.000674
+[19:07:10.719] iteration 82 : loss : 0.298536 cons_dist: 0.016435, loss_weight: 0.000674
+[19:07:26.836] iteration 83 : loss : 0.464619 cons_dist: 0.008527, loss_weight: 0.000674
+[19:07:41.684] iteration 84 : loss : 0.302041 cons_dist: 0.016594, loss_weight: 0.000674
+[19:07:56.192] iteration 85 : loss : 0.419360 cons_dist: 0.028411, loss_weight: 0.000674
+[19:08:07.678] iteration 86 : loss : 0.332148 cons_dist: 0.014140, loss_weight: 0.000674
+[19:08:21.682] iteration 87 : loss : 0.379295 cons_dist: 0.023540, loss_weight: 0.000674
+[19:08:36.188] iteration 88 : loss : 0.399003 cons_dist: 0.025509, loss_weight: 0.000674
+[19:08:50.966] iteration 89 : loss : 0.357814 cons_dist: 0.036269, loss_weight: 0.000674
+[19:09:04.567] iteration 90 : loss : 0.333798 cons_dist: 0.017551, loss_weight: 0.000674
+[19:09:14.789] iteration 91 : loss : 0.289936 cons_dist: 0.058030, loss_weight: 0.000674
+[19:09:26.470] iteration 92 : loss : 0.414768 cons_dist: 0.034773, loss_weight: 0.000674
+[19:09:37.890] iteration 93 : loss : 0.306085 cons_dist: 0.021851, loss_weight: 0.000674
+[19:09:49.616] iteration 94 : loss : 0.278197 cons_dist: 0.037412, loss_weight: 0.000674
+[19:10:01.022] iteration 95 : loss : 0.344999 cons_dist: 0.046944, loss_weight: 0.000674
+[19:10:15.832] iteration 96 : loss : 0.236724 cons_dist: 0.028576, loss_weight: 0.000674
+[19:10:31.244] iteration 97 : loss : 0.315538 cons_dist: 0.051791, loss_weight: 0.000674
+[19:10:46.873] iteration 98 : loss : 0.223523 cons_dist: 0.037172, loss_weight: 0.000674
+[19:11:02.871] iteration 99 : loss : 0.433776 cons_dist: 0.027483, loss_weight: 0.000674
+[19:11:18.345] iteration 100 : loss : 0.277982 cons_dist: 0.018105, loss_weight: 0.000674
+[19:11:18.553] save model to ../model/UAMT_unlabel/iter_100.pth
