@@ -1,0 +1,8 @@
+# ninja log v5
+1	5160	7620072133486008	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/knnquery/knnquery_cuda.obj	5d1ded2b7807da58
+31	5185	7620072133746005	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/subtraction/subtraction_cuda.obj	2699a871f12decf6
+14	5208	7620072133986007	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/interpolation/interpolation_cuda.obj	132388056248fdf2
+49	5236	7620072134256048	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/sampling/sampling_cuda.obj	29239d5d7c58f1f4
+22	5243	7620072134301086	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/grouping/grouping_cuda.obj	82faca6be1be9cb7
+6	5248	7620072134341141	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/aggregation/aggregation_cuda.obj	1e5e873b3f3800d4
+44	10096	7620072182847746	C:/Users/aleja/Documents/github/LiDAR-HMR/pointops/build/temp.win-amd64-cpython-38/Release/src/pointops_api.obj	d585772a64f13f0
