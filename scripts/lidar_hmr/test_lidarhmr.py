@@ -218,14 +218,14 @@ setup_seed(10)
 dataset_task = args.dataset #'sloper4d', 'waymov2', 'collect'
 if dataset_task == 'sloper4d':
     scene_train = [
-            'seq002_football_001',
-            'seq003_street_002',
-            'seq005_library_002',
-            'seq007_garden_001',
-            'seq008_running_001'
+            # 'seq002_football_001',
+            # 'seq003_street_002',
+            # 'seq005_library_002',
+            # 'seq007_garden_001',
+            # 'seq008_running_001'
         ]
-    scene_test = ['seq009_running_002']
-    dataset_root = '/Extra/fanbohao/posedataset/PointC/sloper4d/'
+    scene_test = ['seq008_running_001']
+    dataset_root = r"D:\SLOPER4D"
     train_dataset = SLOPER4D_Dataset(dataset_root, scene_train, is_train = True, dataset_path = './save_data/sloper4d/',
                                 return_torch=False, device = 'cuda',
                                 fix_pts_num=True, return_smpl = True, augmentation = True, interval = 5)
@@ -279,8 +279,8 @@ model = LiDAR_HMR(pmg_cfg = config, train_pmg = True).cuda()
 
 total = sum([param.nelement() for param in model.parameters()])
 bs = 8
-train_loader = DataLoader(train_dataset, batch_size=bs, shuffle=True, num_workers = 8)
-test_loader = DataLoader(test_dataset, batch_size=bs, shuffle=False, num_workers = 8)
+# train_loader = DataLoader(train_dataset, batch_size=bs, shuffle=True, num_workers = 8)
+test_loader = DataLoader(test_dataset, batch_size=bs, shuffle=False, num_workers = 0)
 optimizer = torch.optim.Adam(params=list(model.parameters()),
                                            lr=5e-4,
                                            betas=(0.9, 0.999),
@@ -292,7 +292,10 @@ if args.state_dict != '':
     model.load_state_dict(state_dict['net'])
     
 save = True
+import torch.multiprocessing as mp
+mp.freeze_support()  # This is important for Windows
 mpjpe, precision, mpvpe, mpee, mpere = test(model, test_loader, save)
+
 print('MPJPE: '+str(mpjpe) + '; Precision:' + str(precision) + '; MPVPE:'+str(mpvpe) + '; MPERE:'+str(mpere))
 # save = False
 # if save:
