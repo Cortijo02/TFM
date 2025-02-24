@@ -1,1 +1,2 @@
 Dockerfile
+.venv # TODO: Borrar si no se necesita

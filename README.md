@@ -1,10 +1,27 @@
 # LiDAR-HMR: 3D Human Mesh Recovery from LiDAR
 
-### [Paper](https://arxiv.org/pdf/2311.11971) 
+## Steps to Deploy the Current Dockerfile
 
-> LiDAR-HMR: 3D Human Mesh Recovery from LiDAR
+1. Build the Docker image:
 
-> [Bohao Fan](https://github.com/soullessrobot)*, [Wenzhao Zheng](https://wzzheng.net/), [Jianjiang Feng](http://ivg.au.tsinghua.edu.cn/~jfeng/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)
+To build and run the Docker container, follow these steps:
+
+```
+docker build -t repo_tfm .
+```
+2. Run the container with GPU support:
+
+```
+docker run --gpus all -it --name tfm repo_tfm
+```
+
+To be continued....
+
+### Data
+
+> Title (Master's thesis)
+
+> [Alejandro Cortijo](https://cortijo02.github.io/), ....
 
 ## Demo
 ![demo](./assets/demo.png)
@@ -13,7 +30,13 @@
 
 ## Introduction
 
-In recent years, point cloud perception tasks have been garnering increasing attention. This paper presents the first attempt to estimate 3D human body mesh from sparse LiDAR point clouds. We found that the major challenge in estimating human pose and mesh from point clouds lies in the sparsity, noise, and incompletion of LiDAR point clouds. Facing these challenges, we propose an effective sparse-to-dense reconstruction scheme to reconstruct 3D human mesh. This involves estimating a sparse representation of a human (3D human pose) and gradually reconstructing the body mesh. To better leverage the 3D structural information of point clouds, we employ a cascaded graph transformer (graphormer) to introduce point cloud features during sparse-to-dense reconstruction. Experimental results on three publicly available databases demonstrate the effectiveness of the proposed approach.
+In recent years, point cloud perception tasks have gained increasing attention due to their relevance in various computer vision applications, such as 3D reconstruction, autonomous navigation, and human-machine interaction. This master's thesis aims to push the state of the art (SOTA) in estimating 3D human body meshes from sparse LiDAR point clouds, contributing new algorithms to improve model accuracy and robustness. While previous approaches exist in this domain, the key challenges remain the sparsity, noise, and incompleteness inherent in LiDAR point clouds.
+
+The main focus of this work is to overcome the limitations of sparse point clouds through an innovative sparse-to-dense reconstruction scheme, progressively reconstructing the 3D human mesh from sparse representations. To enhance the integration of 3D structural information from point clouds, a novel approach based on Graph Transformers (Graphormer) is introduced. This improves the reconstruction quality by effectively incorporating the spatial features of the point clouds during the sparse-to-dense process. This repository will serve as a platform to document and showcase the progress made with this approach and its improvements over existing methods, aiming to contribute significantly to the development of more robust and accurate solutions for human mesh reconstruction from LiDAR.
+
+Experimental results on three publicly available datasets validate the effectiveness of the proposed approach, showing significant improvements over current methods. This work not only advances algorithms for 3D reconstruction but also takes a step toward integrating these advancements into real-world applications of point cloud perception and 3D modeling.
+
+
 
 ### Challenges & Our pipeline
 
