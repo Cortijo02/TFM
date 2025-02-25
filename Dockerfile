@@ -27,6 +27,8 @@ COPY . /app
 
 RUN conda run -n myenv pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113 && conda clean --all -y
 
+#VOLUME ["/app/data", "/app/weights"]
+
 # Comando por defecto
 CMD ["sleep", "infinity"]
 
@@ -35,3 +37,6 @@ CMD ["sleep", "infinity"]
 #     pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113 && \
 #     conda clean --all --yes && \
 #     pip cache purge
+
+
+# docker run -it --gpus all -v $(pwd)/data:/app/data -v $(pwd)/weights:/app/weights my_image
