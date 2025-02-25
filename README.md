@@ -12,7 +12,7 @@ docker build -t repo_tfm .
 2. Run the container with GPU support:
 
 ```
-docker run -it --gpus all --name tfm repo_tfm bash
+docker run -it --gpus all -v $(PATH)/data:/app/data -v $(PATH)/weights:/app/weights --name tfm repo_tfm bash
 ```
 
 To be continued....
