@@ -12,12 +12,12 @@ docker build -t repo_tfm .
 2. Run the container with GPU support:
 
 ```
-docker run --gpus all -it --name tfm repo_tfm
+docker run -it --gpus all --name tfm repo_tfm bash
 ```
 
 To be continued....
 
-### Data
+### Info
 
 > Title (Master's thesis)
 
@@ -25,7 +25,6 @@ To be continued....
 
 ## Demo
 ![demo](./assets/demo.png)
-
 
 
 ## Introduction
