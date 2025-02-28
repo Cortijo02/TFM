@@ -11,9 +11,23 @@ docker build -t repo_tfm .
 ```
 2. Run the container with GPU support:
 
+Linux:
 ```
-docker run -it --gpus all -v $(PATH)/data:/app/data -v $(PATH)/weights:/app/weights --name tfm repo_tfm bash
+docker run -it --gpus all --name tfm \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/weights:/app/weights \
+  -v $(pwd)/smplx_models:/app/smplx_models \
+  repo_tfm
 ```
+
+Windows (Powershell):
+```
+docker run -it --gpus all --name tfm `
+  -v ${PWD}/data:/app/data `
+  -v ${PWD}/weights:/app/weights `
+  -v ${PWD}/smplx_models:/app/smplx_models `
+  repo_tfm
+````
 
 To be continued....
 

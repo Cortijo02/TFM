@@ -4,10 +4,10 @@ from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 import os
 from distutils.sysconfig import get_config_vars
 
-# (opt,) = get_config_vars('OPT')
-# os.environ['OPT'] = " ".join(
-#     flag for flag in opt.split() if flag != '-Wstrict-prototypes'
-# )
+(opt,) = get_config_vars('OPT')
+os.environ['OPT'] = " ".join(
+    flag for flag in opt.split() if flag != '-Wstrict-prototypes'
+)
 
 setup(
     name='pointops',

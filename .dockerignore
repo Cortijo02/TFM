@@ -1,5 +1,6 @@
 Dockerfile
 .venv # TODO: Borrar si no se necesita
 
-weight/
+weights/
 data/
+smplx_models/

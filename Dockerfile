@@ -25,9 +25,13 @@ ENV PATH="/opt/conda/envs/myenv/bin:$PATH"
 
 COPY . /app
 
+# COPY install_dependencies.sh /app/
+# RUN chmod +x /app/install_dependencies.sh
+# RUN /app/install_dependencies.sh
+
 RUN conda run -n myenv pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113 && conda clean --all -y
 
-#VOLUME ["/app/data", "/app/weights"]
+VOLUME ["/app/data", "/app/weights", "/app/smplx_models"]
 
 # Comando por defecto
 CMD ["sleep", "infinity"]
@@ -40,3 +44,4 @@ CMD ["sleep", "infinity"]
 
 
 # docker run -it --gpus all -v $(pwd)/data:/app/data -v $(pwd)/weights:/app/weights my_image
+

@@ -1,10 +1,10 @@
 .venv*
 __pycache__/
-pointops/
+notas.txt
 
-*.pkl
-*.npz
-*pth
+weights/
+data/
+smplx_models/
 
 requirements.txt
 .DS_Store
