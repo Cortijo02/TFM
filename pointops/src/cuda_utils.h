@@ -5,7 +5,7 @@
 #include <algorithm>
 
 #define TOTAL_THREADS 1024
-#define THREADS_PER_BLOCK 256
+#define THREADS_PER_BLOCK 512
 #define DIVUP(m, n) ((m) / (n) + ((m) % (n) > 0))
 
 inline int opt_n_threads(int work_size) {

@@ -1,6 +1,10 @@
 Dockerfile
 .venv # TODO: Borrar si no se necesita
+.gitignore
+.dockerignore
 
 weights/
 data/
 smplx_models/
+
+assets/

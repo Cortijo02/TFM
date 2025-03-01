@@ -225,7 +225,7 @@ if dataset_task == 'sloper4d':
             # 'seq008_running_001'
         ]
     scene_test = ['seq008_running_001']
-    dataset_root = r"D:\SLOPER4D"
+    dataset_root = "./data/sloper4d/"
     train_dataset = SLOPER4D_Dataset(dataset_root, scene_train, is_train = True, dataset_path = './save_data/sloper4d/',
                                 return_torch=False, device = 'cuda',
                                 fix_pts_num=True, return_smpl = True, augmentation = True, interval = 5)
@@ -292,8 +292,7 @@ if args.state_dict != '':
     model.load_state_dict(state_dict['net'])
     
 save = True
-import torch.multiprocessing as mp
-mp.freeze_support()  # This is important for Windows
+
 mpjpe, precision, mpvpe, mpee, mpere = test(model, test_loader, save)
 
 print('MPJPE: '+str(mpjpe) + '; Precision:' + str(precision) + '; MPVPE:'+str(mpvpe) + '; MPERE:'+str(mpere))

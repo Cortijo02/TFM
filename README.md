@@ -1,4 +1,20 @@
-# LiDAR-HMR: 3D Human Mesh Recovery from LiDAR
+# LiDAR is all you nedd
+
+### Info
+
+> Title (Master's thesis)
+
+> [Alejandro Cortijo](https://cortijo02.github.io/), ....
+
+## Demo
+![demo](./assets/demo.png)
+
+
+## Introduction
+
+In recent years, point cloud perception tasks have gained increasing attention due to their relevance in various computer vision applications, such as 3D reconstruction, autonomous navigation, and human-machine interaction. This master's thesis aims to push the state of the art (SOTA) in estimating 3D human body meshes from sparse LiDAR point clouds, contributing new algorithms with the purpose of improve model accuracy and robustness. 
+
+.......
 
 ## Steps to Deploy the Current Dockerfile
 
@@ -29,70 +45,47 @@ docker run -it --gpus all --name tfm `
   repo_tfm
 ````
 
+3. Use the container:
+
+````
+docker exec -it $CONTAINER_ID$ bash
+````
+
+3.1 Compile pointops inside the container:
+
+TODO: try to compile during the build
+
+````
+cd /app/pointops && python setup.py install --user && cd /app
+````
+
 To be continued....
 
-### Info
+## Preparation
 
-> Title (Master's thesis)
+TODO: Improve it (add links)
 
-> [Alejandro Cortijo](https://cortijo02.github.io/), ....
-
-## Demo
-![demo](./assets/demo.png)
-
-
-## Introduction
-
-In recent years, point cloud perception tasks have gained increasing attention due to their relevance in various computer vision applications, such as 3D reconstruction, autonomous navigation, and human-machine interaction. This master's thesis aims to push the state of the art (SOTA) in estimating 3D human body meshes from sparse LiDAR point clouds, contributing new algorithms to improve model accuracy and robustness. While previous approaches exist in this domain, the key challenges remain the sparsity, noise, and incompleteness inherent in LiDAR point clouds.
-
-The main focus of this work is to overcome the limitations of sparse point clouds through an innovative sparse-to-dense reconstruction scheme, progressively reconstructing the 3D human mesh from sparse representations. To enhance the integration of 3D structural information from point clouds, a novel approach based on Graph Transformers (Graphormer) is introduced. This improves the reconstruction quality by effectively incorporating the spatial features of the point clouds during the sparse-to-dense process. This repository will serve as a platform to document and showcase the progress made with this approach and its improvements over existing methods, aiming to contribute significantly to the development of more robust and accurate solutions for human mesh reconstruction from LiDAR.
-
-Experimental results on three publicly available datasets validate the effectiveness of the proposed approach, showing significant improvements over current methods. This work not only advances algorithms for 3D reconstruction but also takes a step toward integrating these advancements into real-world applications of point cloud perception and 3D modeling.
-
-
-
-### Challenges & Our pipeline
-
-![overview](./assets/overview.png)
-
-### Framework
-
-![framework](./assets/framework.png)
-
-### Results
-
-![results](./assets/results.png)
-
-### More Visualizations
-
-![visualization](./assets/visualization.png)
-
-## Code
-Preparation:
 Downloading the SMPL-X model weights from [this website](https://smpl-x.is.tue.mpg.de/) into 'smplx_models' folder.
 
-Installation:
-```
-pip install -r requirements.txt
-```
-Install the [Point Transformer-V2](https://github.com/Pointcept/PointTransformerV2) and [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch) following their official documents.
+Several 3D HPE:
 
-Code:
-We have implemented or modified several 3D HPE works based on point cloud including:
+* V2V-PoseNet: [Paper](https://arxiv.org/abs/1711.07399)
 
-V2V-PoseNet: https://arxiv.org/abs/1711.07399
+* LPFormer: [Paper](https://arxiv.org/abs/2306.12525)
 
-LPFormer: https://arxiv.org/abs/2306.12525
+* HybrIK: [Paper](https://arxiv.org/abs/2011.14672) & [Code](https://github.com/jeffffffli/HybrIK)
 
-HybrIK: https://arxiv.org/abs/2011.14672
+* SAHSR: [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Jiang_Skeleton-Aware_3D_Human_Shape_Reconstruction_From_Point_Clouds_ICCV_2019_paper.html)
 
-SAHSR: https://openaccess.thecvf.com/content_ICCV_2019/html/Jiang_Skeleton-Aware_3D_Human_Shape_Reconstruction_From_Point_Clouds_ICCV_2019_paper.html
+* VoteHMR: [Paper](https://arxiv.org/abs/2110.08729) & [Code](https://github.com/hanabi7/VoteHMR)
 
-VoteHMR: https://arxiv.org/abs/2110.08729
+* LiDARCap: [Paper](https://arxiv.org/abs/2203.14698) & [Code](https://github.com/jingyi-zhang/LiDARCap)
 
-LiDARCap: https://arxiv.org/abs/2203.14698
+* Pose2Mesh: [Paper](https://arxiv.org/abs/2008.09047) & [Code](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)
 
-Pose2Mesh: https://arxiv.org/abs/2008.09047
+* LiDAR-HMR: [Paper](https://arxiv.org/pdf/2311.11971) & [Code](https://github.com/soullessrobot/LiDAR-HMR/tree/main)
+
+To be continued ......
 
 The corresponding train and test codes are in the 'scripts' folder.
 
@@ -108,7 +101,7 @@ python scripts/lidar_hmr/train_lidarhmr.py --dataset sloper4d --cfg configs/mesh
 ```
 LiDAR_HMR testing:
 ```
-python scripts/lidar_hmr/test_lidarhmr.py --dataset sloper4d --cfg configs/mesh/sloper4d.yaml --state_dict /path/to/your/file
+python scripts/lidar_hmr/test_lidarhmr.py --dataset sloper4d --cfg configs/mesh/sloper4d.yaml --state_dict weights/sloper4d/lidar_hmr_mesh.pth
 ```
 ## Pretrained Models
 [Download link](https://cloud.tsinghua.edu.cn/d/937a4af3a7cb4c5b8e89/)

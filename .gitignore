@@ -1,10 +1,7 @@
 .venv*
 __pycache__/
-notas.txt
+
 
 weights/
 data/
 smplx_models/
-
-requirements.txt
-.DS_Store
