@@ -1,4 +1,4 @@
-# LiDAR is all you nedd
+# LiDAR is all you need
 
 ### Info
 
