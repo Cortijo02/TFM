@@ -205,6 +205,7 @@ def test(model, dataloader, save = False):
         saver_dict['pose_trans'] = np.concatenate(saver_dict['pose_trans'], axis = 0)
         saver_dict['pcd'] = np.concatenate(saver_dict['pcd'], axis = 0)
         # saver_dict['number_list'] = np.concatenate(saver_dict['number_list'], axis = 0)
+        os.makedirs('save_meshik/', exist_ok=True)
         np.save('save_meshik/'+dataset_task+'.npy', np.array(saver_dict))
     mpjpe = mpjpe.item() / number    
     precision = precision.item() / number

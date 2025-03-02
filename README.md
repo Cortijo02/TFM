@@ -9,7 +9,6 @@
 ## Demo
 ![demo](./assets/demo.png)
 
-
 ## Introduction
 
 In recent years, point cloud perception tasks have gained increasing attention due to their relevance in various computer vision applications, such as 3D reconstruction, autonomous navigation, and human-machine interaction. This master's thesis aims to push the state of the art (SOTA) in estimating 3D human body meshes from sparse LiDAR point clouds, contributing new algorithms with the purpose of improve model accuracy and robustness. 
@@ -33,7 +32,8 @@ docker run -it --gpus all --name tfm \
   -v $(pwd)/data:/app/data \
   -v $(pwd)/weights:/app/weights \
   -v $(pwd)/smplx_models:/app/smplx_models \
-  repo_tfm
+  repo_tfm \
+  /bin/bash
 ```
 
 Windows (Powershell):
@@ -42,21 +42,16 @@ docker run -it --gpus all --name tfm `
   -v ${PWD}/data:/app/data `
   -v ${PWD}/weights:/app/weights `
   -v ${PWD}/smplx_models:/app/smplx_models `
-  repo_tfm
+  repo_tfm `
+  /bin/bash
 ````
 
-3. Use the container:
+`Note`: After running docker run, the container's environment will be set up. Since the Pointops library requires CUDA for compilation, this process cannot be done earlier. As a result, you may see logs for about 3-4 minutes. Thank you for your patience!.
+
+3. Enjoy:
 
 ````
-docker exec -it $CONTAINER_ID$ bash
-````
-
-3.1 Compile pointops inside the container:
-
-TODO: try to compile during the build
-
-````
-cd /app/pointops && python setup.py install --user && cd /app
+docker exec -it <CONTAINER_ID> /bin/bash 
 ````
 
 To be continued....
@@ -118,10 +113,10 @@ Our code is based on [Mesh Graphormer](https://arxiv.org/abs/2104.00272), [Point
 
 If you find this project helpful, please consider citing the following paper:
 ```
-@article{fan2023lidar,
-    title={LiDAR-HMR: 3D Human Mesh Recovery from LiDAR},
-    author={Fan, Bohao and Zheng, Wenzhao and Feng, Jianjiang and Zhou, Jie},
-    journal={arXiv preprint arXiv:2311.11971},
-    year={2023}
+@article{xxxxx,
+    title={TBD},
+    author={xxxxx},
+    journal={xxxxx},
+    year={TBD}
 }
 ```
