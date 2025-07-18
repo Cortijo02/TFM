@@ -33,18 +33,11 @@ ENV PATH="/opt/conda/envs/myenv/bin:$PATH"
 COPY . /app
 
 # Avoid problems with Windows line endings
-RUN dos2unix /app/install_dependencies.sh
-RUN dos2unix /app/install_pointops.sh
+RUN dos2unix /app/utils/install_dependencies.sh
+RUN dos2unix /app/utils/install_pointops.sh
 
-RUN chmod +x /app/install_dependencies.sh
-RUN chmod +x /app/install_pointops.sh
+RUN chmod +x /app/utils/install_dependencies.sh
+RUN chmod +x /app/utils/install_pointops.sh
 
-RUN /app/install_dependencies.sh
-
-VOLUME ["/app/data", "/app/weights", "/app/smplx_models"]
-
-ENTRYPOINT ["/bin/bash", "-c", "/app/install_pointops.sh && sleep infinity"]
-
-# Comando por defecto
-CMD ["/bin/bash"]
+RUN /app/utils/install_dependencies.sh
 

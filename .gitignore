@@ -1,7 +1,11 @@
 .venv*
 __pycache__/
+pointops/
 
 
 weights/
 data/
 smplx_models/
+
+save_data/
+save_meshik/

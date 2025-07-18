@@ -25,7 +25,7 @@ class lidar_Dataset(Dataset):
         self.return_torch = return_torch
         self.fix_pts_num  = fix_pts_num
         self.point_num = 1024
-        with open('smplx_models/smpl/SMPL_NEUTRAL.pkl', 'rb') as smpl_file:
+        with open('/app/smplx_models/smpl/SMPL_NEUTRAL.pkl', 'rb') as smpl_file:
             smpl_data = pickle.load(smpl_file, encoding='latin1')
         self.v_template = smpl_data['v_template']
         self.joint_24_regressor = torch.tensor(smpl_data['J_regressor'].todense()).float()

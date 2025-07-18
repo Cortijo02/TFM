@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  tmf-container:
+    container_name: ${CONTAINER_NAME}
+    build: .
+
+    env_file:
+      - .env
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+
+    runtime: nvidia
+
+    tty: true
+
+    volumes:
+      - ./:/app
+      - ${DATA_DIR}:/app/data/sloper4d:ro
+      - ${WEIGHTS_DIR}:/app/weights:ro
+      - ${SMPLX_MODELS_DIR}:/app/smplx_models:ro
+
+    command: bash -c "/app/utils/install_pointops.sh && sleep infinity"

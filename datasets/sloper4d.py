@@ -232,7 +232,7 @@ class SLOPER4D_Dataset(lidar_Dataset):
             'right_wrist':14
             }
         self.JOINTS_IDX = [0, 1, 2, 4, 5, 7, 8, 12, 15, 16, 17, 18, 19, 20, 21]
-        with open('smplx_models/smpl/SMPL_NEUTRAL.pkl', 'rb') as smpl_file:
+        with open('/app/smplx_models/smpl/SMPL_NEUTRAL.pkl', 'rb') as smpl_file:
             self.joint_24_regressor = torch.tensor(pickle.load(smpl_file, encoding='latin1')['J_regressor'].todense()).float()
         # self.length = sum([scene['length'] for scene in self.scene_data_list])
         self.interval = interval
@@ -341,7 +341,7 @@ class SLOPER4D_Dataset(lidar_Dataset):
     def return_smpl_verts(self, ):
         file_path = self.root_folder
         with torch.no_grad():
-            human_model = smplx.create('./smplx_models/', model_type = 'smpl',
+            human_model = smplx.create('/app/smplx_models/', model_type = 'smpl',
                                     gender=self.smpl_gender, 
                                     use_face_contour=False,
                                     ext="npz")
@@ -360,13 +360,13 @@ class SLOPER4D_Dataset(lidar_Dataset):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SLOPER4D dataset')
     parser.add_argument('--dataset_root', type=str, 
-                        default='/Extra/fanbohao/posedataset/PointC/sloper4d/', 
+                        default='/app/data/sloper4d/', 
                         help='Path to data file')
     parser.add_argument('--scene_name', type=str, 
                         default='seq003_street_002', 
                         help='Scene name')
     # parser.add_argument('--pkl_file', type=str, 
-    #                     default='/disk1/fanbohao/fbh_data/sloper4d/seq003_street_002/seq003_street_002_labels.pkl', 
+    #                     default='/app/weights/sloper4d/lidar_hmr_mesh.pth', 
     #                     help='Path to the pkl file')
     parser.add_argument('--batch_size', type=int, default=1, 
                         help='The batch size of the data loader')
@@ -393,6 +393,9 @@ if __name__ == '__main__':
     # Batch_size > 1 is not supported yet
     # because bbox and 2d keypoints missing in some frames
     dataloader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=True)
+
+    save_dir = 'save_data/sloper4d/visualizations'
+    os.makedirs(save_dir, exist_ok=True)
     
     for index, sample in enumerate(dataloader):
         # import pdb; pdb.set_trace()
@@ -411,4 +414,6 @@ if __name__ == '__main__':
         ax.set_ylim(y-1.0, y+1.0)
         ax.set_zlim(z-1.0, z+1.0)
         # print(smpl_joints_local[[29,31],:].mean(dim = 0), smpl_joints_local[[32,34],:].mean(dim = 0),)
-        plt.show()
+        save_path = os.path.join(save_dir, f'sample_{index:04d}.png')
+        plt.savefig(save_path, dpi=150)
+        plt.close(fig)

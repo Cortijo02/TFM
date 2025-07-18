@@ -219,14 +219,14 @@ setup_seed(10)
 dataset_task = args.dataset #'sloper4d', 'waymov2', 'collect'
 if dataset_task == 'sloper4d':
     scene_train = [
-            # 'seq002_football_001',
-            # 'seq003_street_002',
-            # 'seq005_library_002',
-            # 'seq007_garden_001',
-            # 'seq008_running_001'
+            'seq002_football_001',
+            'seq003_street_002',
+            'seq005_library_002',
+            'seq007_garden_001',
+            'seq008_running_001'
         ]
-    scene_test = ['seq008_running_001']
-    dataset_root = "./data/sloper4d/"
+    scene_test = ['seq009_running_002']
+    dataset_root = "/app/data/sloper4d/"
     train_dataset = SLOPER4D_Dataset(dataset_root, scene_train, is_train = True, dataset_path = './save_data/sloper4d/',
                                 return_torch=False, device = 'cuda',
                                 fix_pts_num=True, return_smpl = True, augmentation = True, interval = 5)
